@@ -5,3 +5,4 @@
 z=input('введи число: ')
 if z.isdigit():
     print(int(z)**2)
++
