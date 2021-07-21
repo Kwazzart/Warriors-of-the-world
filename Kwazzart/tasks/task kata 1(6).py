@@ -2,12 +2,12 @@ def decode_bits(bin_str):
     answ = 0
     if bin_str != "":
         for indx, i in enumerate(bin_str):
-            print("indx = "+str(indx), "i = "+str(i))
-            if i == 1:
+
+            if i == "1":
                 if indx % 2 == 0:
-                    answ += 1
-                else:
                     answ -= 1
+                else:
+                    answ += 1
     print(answ)
 
 decode_bits("1")
