@@ -1,13 +1,2 @@
-def decode_bits(bin_str):
-    answ = 0
-    if bin_str != "":
-        for indx, i in enumerate(bin_str):
-
-            if i == "1":
-                if indx % 2 == 0:
-                    answ -= 1
-                else:
-                    answ += 1
-    print(answ)
-
-decode_bits("1")
+def over_the_road(address, n): # answ = 2*x or 1 + 2*(x-1)
+    if address % 2 == 0:
